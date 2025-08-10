@@ -1,0 +1,829 @@
+<mxfile host="app.diagrams.net" modified="2024-08-18T11:43:48.376Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="hurFG6Dmp_Tkp0BLPieI" version="24.4.15" type="device" pages="15">
+  <diagram name="Sayfa -1" id="6io6uKvvAqm4JKhm6swK">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-1" value="Algoritma&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Bir kullnıcıdan alınan sayıların tek mi yoksa çift mi olduğunu bulan ve ekrana yazdıran bir algoritma yazınız ve akış diyagramı ile gösteriniz&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" width="530" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-7" value="algoritmik çözüm&lt;div&gt;1) başla&lt;/div&gt;&lt;div&gt;2-kullanıcıdan 1 sayı al&amp;nbsp;&lt;/div&gt;&lt;div&gt;3-eğer sayı 1%2==0 ise ekrana çifttir yaz&lt;/div&gt;&lt;div&gt;4-değilse ekrana tektir yaz&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;5-bitir&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="200" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-8" value="akış dyagramı ile çözüm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6vXyGjG4X4umRvIoGwWB-9" target="6vXyGjG4X4umRvIoGwWB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-9" value="basla" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="240" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6vXyGjG4X4umRvIoGwWB-10" target="6vXyGjG4X4umRvIoGwWB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-10" value="x değerigir" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6vXyGjG4X4umRvIoGwWB-12" target="6vXyGjG4X4umRvIoGwWB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-16" value="evet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6vXyGjG4X4umRvIoGwWB-15">
+          <mxGeometry x="-0.0957" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-21" value="hayır" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6vXyGjG4X4umRvIoGwWB-12" target="6vXyGjG4X4umRvIoGwWB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-12" value="x%2==0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="415" width="75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6vXyGjG4X4umRvIoGwWB-14" target="6vXyGjG4X4umRvIoGwWB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-14" value="çifttir" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="415" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6vXyGjG4X4umRvIoGwWB-17" target="6vXyGjG4X4umRvIoGwWB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-17" value="bitir" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="575" width="97.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6vXyGjG4X4umRvIoGwWB-19" value="tektir" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="238.75" y="575" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pRzHWBFNKICyqYVbkDLl" name="Sayfa -2">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zd2M49ktoha2RAe7Sgb2-1" value="öğretmenden alınan 2 adet saynın çarpımlarını toplamlara bölerek sonucu ekrana yazdıran bir algoritma yazınız ve akış diyagramı ile gösteriniz." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLXmAsRnz7EZuN6aSi_e-1" value="1-başla&amp;nbsp;&lt;div&gt;2-kullanıcıdan 2 sayı al&amp;nbsp;&lt;/div&gt;&lt;div&gt;3-(axb) / (a + b)&lt;/div&gt;&lt;div&gt;4-sonucu akrana yaz&lt;/div&gt;&lt;div&gt;5-bitir&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls656czmyV3Zm3ba6q_C-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ls656czmyV3Zm3ba6q_C-2" target="Ls656czmyV3Zm3ba6q_C-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls656czmyV3Zm3ba6q_C-2" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls656czmyV3Zm3ba6q_C-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ls656czmyV3Zm3ba6q_C-3" target="Ls656czmyV3Zm3ba6q_C-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls656czmyV3Zm3ba6q_C-3" value="kullanıcıdan 2 sayı al&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls656czmyV3Zm3ba6q_C-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ls656czmyV3Zm3ba6q_C-5" target="Ls656czmyV3Zm3ba6q_C-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls656czmyV3Zm3ba6q_C-5" value="(a*b)/(a+b)" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="420" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls656czmyV3Zm3ba6q_C-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Ls656czmyV3Zm3ba6q_C-7" target="Ls656czmyV3Zm3ba6q_C-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls656czmyV3Zm3ba6q_C-7" value="sonucu yaz" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls656czmyV3Zm3ba6q_C-9" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2cpEeI4fhn4SbyJZNFsY" name="Sayfa -3">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zHhzzstJcb0P6LialD-h-1" value="öğretmenden alınan 1 adet sayının karesini bulup ekrana yazdıran bir algoritma yazınız ve akış diyagramı ile gösteriniz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="520" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_1PPAzKuydwbboSZe0Br-1" value="1-başla&lt;div&gt;2-sayı al&amp;nbsp; (a)&lt;/div&gt;&lt;div&gt;3-a&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(10, 24, 41); font-family: Georgia, Cambria, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 20px; text-align: start;&quot;&gt;²&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(10, 24, 41); font-family: Georgia, Cambria, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 20px; text-align: start;&quot;&gt;4-a&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(10, 24, 41); font-family: Georgia, Cambria, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 20px; text-align: start;&quot;&gt;²0b&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(10, 24, 41); font-family: Georgia, Cambria, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 20px; text-align: start;&quot;&gt;5-bitir&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bY-x5YgKzTgXo7fl__iG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="bY-x5YgKzTgXo7fl__iG-1" target="bY-x5YgKzTgXo7fl__iG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bY-x5YgKzTgXo7fl__iG-1" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bY-x5YgKzTgXo7fl__iG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="bY-x5YgKzTgXo7fl__iG-2" target="bY-x5YgKzTgXo7fl__iG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bY-x5YgKzTgXo7fl__iG-2" value="sayı al (a)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bY-x5YgKzTgXo7fl__iG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="bY-x5YgKzTgXo7fl__iG-4" target="bY-x5YgKzTgXo7fl__iG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bY-x5YgKzTgXo7fl__iG-4" value="a&lt;span style=&quot;color: rgb(10, 24, 41); font-family: Georgia, Cambria, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 20px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;²=b&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bY-x5YgKzTgXo7fl__iG-8" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jbSmIgIni_kZIywm2CiK" name="Sayfa -4">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-3" value="1 den başlayıp kullanıcının girdiği sayı adedince ekrana merhaba yazan bir algoritma yazınız ve akış diyagramı ile gösteriniz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="K_9aZGxCT8VaQqMAY_8r-4" target="K_9aZGxCT8VaQqMAY_8r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-4" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-5" value="x sayı gir" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="K_9aZGxCT8VaQqMAY_8r-9" target="K_9aZGxCT8VaQqMAY_8r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-9" value="sayaç=1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-11" value="evet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K_9aZGxCT8VaQqMAY_8r-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="280" />
+              <mxPoint x="640" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="K_9aZGxCT8VaQqMAY_8r-10" target="K_9aZGxCT8VaQqMAY_8r-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-10" value="sayaç&amp;lt;=x" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="580" y="220" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.417;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500.03999999999996" y="459.03999999999996" as="targetPoint" />
+            <mxPoint x="765" y="450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="765" y="451" />
+              <mxPoint x="741" y="451" />
+              <mxPoint x="741" y="459" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="K_9aZGxCT8VaQqMAY_8r-12" target="K_9aZGxCT8VaQqMAY_8r-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-12" value="sayaç=sayaç+1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="680" y="380" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-19" value="merhaba" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-21" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="690" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-22" value="hayır" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="K_9aZGxCT8VaQqMAY_8r-10" target="K_9aZGxCT8VaQqMAY_8r-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K_9aZGxCT8VaQqMAY_8r-23" value="algoritmik çözüm&lt;div&gt;1-başla&lt;/div&gt;&lt;div&gt;2-x sayı gir&lt;/div&gt;&lt;div&gt;3-sayaç=1&lt;/div&gt;&lt;div&gt;4-eğer sayaç &amp;lt;= x ise ekrana &quot;merhaba&quot; yaz 5. adıma git&lt;/div&gt;&lt;div&gt;5-sayaç=sayaç + 1 4. adıma git&amp;nbsp;&lt;/div&gt;&lt;div&gt;6-bitir&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="280" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4PdnP9po419IBZfAJIIs" name="Sayfa -5">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I5b84BkbJhK2uygHqrmx-1" value="bir öğrencinin girdiği 3 adet sınavın aritmatik ortalamasını bulup ve eğer 45 veya üstü ise ekana geçti, değilse kaldı yazan bir algoritma yazınız ve akış diyagramı ile gösteriniz." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="510" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="220" as="targetPoint" />
+            <mxPoint x="60.00000000000023" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-5" value="&lt;div&gt;1-başla&lt;/div&gt;2-üç sınav notunu kullanıcıdan al.&lt;div&gt;3-&lt;span style=&quot;background-color: initial;&quot;&gt;Ortalama = (Not1 + Not2 + Not3) / 3&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4-eğer 45 ten büyükse geçti&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Eğer ortalama 45&#39;ten küçükse kaldı&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6-bitir&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="67" y="210" width="370" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-6" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="I5b84BkbJhK2uygHqrmx-7" target="I5b84BkbJhK2uygHqrmx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-7" value="not1 ,no2 , not3" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="317" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.442;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I5b84BkbJhK2uygHqrmx-8" target="I5b84BkbJhK2uygHqrmx-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="I5b84BkbJhK2uygHqrmx-8" target="I5b84BkbJhK2uygHqrmx-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-8" value="&lt;meta charset=&quot;utf-8&quot;&gt;Ortalama &amp;gt;= &lt;span class=&quot;hljs-number&quot;&gt;45&lt;/span&gt;?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="317" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="I5b84BkbJhK2uygHqrmx-9" target="I5b84BkbJhK2uygHqrmx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-9" value="&lt;meta charset=&quot;utf-8&quot;&gt;Geçti " style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;size=0.375;" vertex="1" parent="1">
+          <mxGeometry x="240" y="700" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-10" value="&lt;meta charset=&quot;utf-8&quot;&gt;Kaldı " style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="420" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-11" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.392;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="I5b84BkbJhK2uygHqrmx-6" target="I5b84BkbJhK2uygHqrmx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5b84BkbJhK2uygHqrmx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="I5b84BkbJhK2uygHqrmx-10" target="I5b84BkbJhK2uygHqrmx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="boQ2amxtVc6JHh1Zlrbw" name="Sayfa -6">
+    <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-1" value="1 den başlayıp 10 na kadar olan sayıların hepsini toplayıp ekrana yazdıran ir algoritma yazınız ve akış diyagramı ile gösteriniz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="40" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-2" value="1-başla&lt;div&gt;2-&lt;span style=&quot;background-color: initial;&quot;&gt;değişken tanımla ve 0 olarak başlat.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1&#39;den 10&#39;a kadar git her adımda kendini 1 artır&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Toplam değişkenini ekrana yazdır. değer =değer+i(3 e gidecek)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5-bitir&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="190" width="520" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-3" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="sIkQIAJRKFTS73FY_mWB-6" target="sIkQIAJRKFTS73FY_mWB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-6" value="i=1; i&amp;lt;=10; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="sIkQIAJRKFTS73FY_mWB-7" target="sIkQIAJRKFTS73FY_mWB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-7" value="değer= 0" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="530" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.992;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sIkQIAJRKFTS73FY_mWB-8" target="sIkQIAJRKFTS73FY_mWB-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="sIkQIAJRKFTS73FY_mWB-8" target="sIkQIAJRKFTS73FY_mWB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-8" value="değer==değer+i" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.442;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="sIkQIAJRKFTS73FY_mWB-3" target="sIkQIAJRKFTS73FY_mWB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-13" value="değer" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="540" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-15" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="170" y="525" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sIkQIAJRKFTS73FY_mWB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="sIkQIAJRKFTS73FY_mWB-13" target="sIkQIAJRKFTS73FY_mWB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bNt5DIAf3S_MAF3-YDic" name="Sayfa -7">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r_pATRsBPg8csxss4EBu-1" value="elinizde bir kullanıcı adı ve şifre vardır .dışarıdan birisi ise hesaba giriş yapmak için bir kullanıcı adı ve şifre girmektir.eğer bilgiler eşleşiyorsa ekrana &quot;hoşgeldiniz &quot; değilse &quot;bilgiler &quot; hatalıdır yazan bir algoritma yazınız ve akış diyagramı ile gösteriniz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="410" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-2" value="1-başla&amp;nbsp;&lt;div&gt;2-kullanıcı adı al&lt;/div&gt;&lt;div&gt;3-şifre al&amp;nbsp;&lt;/div&gt;&lt;div&gt;5-eşleşiyorsa hoş geldiniz eşleşmiyorsa hatalıdır yaz&lt;/div&gt;&lt;div&gt;6-bitir&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-3" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-11" value="eşleşiyorsa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="r_pATRsBPg8csxss4EBu-4" target="r_pATRsBPg8csxss4EBu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-4" value="kullanıcı adı al&lt;div&gt;şifre al&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.7;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="r_pATRsBPg8csxss4EBu-3" target="r_pATRsBPg8csxss4EBu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-8" value="hoşgeldiniz" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="460" y="440" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-9" value="hatalıdır" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="630" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-10" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="544.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-14" value="eşleşmiyorsa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="r_pATRsBPg8csxss4EBu-4" target="r_pATRsBPg8csxss4EBu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="r_pATRsBPg8csxss4EBu-4" target="r_pATRsBPg8csxss4EBu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.308;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="r_pATRsBPg8csxss4EBu-8" target="r_pATRsBPg8csxss4EBu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pATRsBPg8csxss4EBu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.917;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="r_pATRsBPg8csxss4EBu-9" target="r_pATRsBPg8csxss4EBu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3690JvhisQpWSN6L5IFV" name="Sayfa -8">
+    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-1" value="elinizde bir kullanıcı adı ve şifre vardır.kişi toplamda 3 hakka sahiptir. dışarıdan birisi ise hesaba giriş yapmak iin bir kulanıcı adı ve şifre girmektedir eğer bilgiler eşleşiyorsa ekrana &quot;hoşgeldiniz&quot; değilse ekrana &quot;hatalı bilgi&quot; girdiniz, kişinin eğer hakları bitti ise &quot;hesabınız bloke edilmiştir&quot; yazan bir algoritma yazınız ve ekış diyagramıile gösteriniz." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-2" target="JAKDXN_Nd7fBvUNkF1_N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-2" value="hak=1&lt;div&gt;kullanıcıadı1 =hat&lt;/div&gt;&lt;div&gt;şifre1=123&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-3" target="JAKDXN_Nd7fBvUNkF1_N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-3" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-4" target="JAKDXN_Nd7fBvUNkF1_N-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-4" value="kadı ve şifre bilgişerini al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-7" value="evet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-5" target="JAKDXN_Nd7fBvUNkF1_N-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="330" />
+              <mxPoint x="740" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-5" target="JAKDXN_Nd7fBvUNkF1_N-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-13" value="hayır" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="JAKDXN_Nd7fBvUNkF1_N-9">
+          <mxGeometry x="0.4505" y="-4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-5" value="kadı1==kadı2&lt;div&gt;ve&lt;/div&gt;&lt;div&gt;şifre1==şifre2&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-6" value="hoşgeldiniz" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-12" value="evet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-8" target="JAKDXN_Nd7fBvUNkF1_N-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-16" value="hayır" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="JAKDXN_Nd7fBvUNkF1_N-15">
+          <mxGeometry x="-0.04" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-8" value="hak==3" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="370" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-10" value="hesabınız bloke oldu" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-14" target="JAKDXN_Nd7fBvUNkF1_N-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-14" value="bilgiler hatalı" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="330" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-17" target="JAKDXN_Nd7fBvUNkF1_N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-17" value="hak=hak +1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-23" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="690" y="504.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-6" target="JAKDXN_Nd7fBvUNkF1_N-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAKDXN_Nd7fBvUNkF1_N-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=0.319;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="JAKDXN_Nd7fBvUNkF1_N-10" target="JAKDXN_Nd7fBvUNkF1_N-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OoKvd7vw9xmRBEkFdprm" name="Sayfa -9">
+    <mxGraphModel dx="1434" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-1" value="kullanıcıdan alınan 3 basamaklı bir sayının her bir basamağındaki sayıların sayı değerini bulan ve ekrana yazdıran algoritmayı ve akış diyagramını oluşturunuz.&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="430" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-2" value="1- başla&lt;div&gt;2- kullanıcıdan 3 basamaklı sayı al&lt;/div&gt;&lt;div&gt;3- sayının yüzler basamağını bul&lt;/div&gt;&lt;div&gt;4-onlar basamağını bul&lt;/div&gt;&lt;div&gt;5-birler basamağını bul&lt;/div&gt;&lt;div&gt;6- ekrana yazdır&lt;/div&gt;&lt;div&gt;7-bitir&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="310" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="FIYh9NLlGo4_SWn2fn80-3" target="FIYh9NLlGo4_SWn2fn80-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-3" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="570" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="FIYh9NLlGo4_SWn2fn80-4" target="FIYh9NLlGo4_SWn2fn80-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-4" value="xyz" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="570" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="FIYh9NLlGo4_SWn2fn80-5" target="FIYh9NLlGo4_SWn2fn80-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-5" value="xyz//100" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="570" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="FIYh9NLlGo4_SWn2fn80-6" target="FIYh9NLlGo4_SWn2fn80-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-6" value="xyz//10 %10" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="580" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="FIYh9NLlGo4_SWn2fn80-7" target="FIYh9NLlGo4_SWn2fn80-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-7" value="xyz//10" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="590" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-8" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="185" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="FIYh9NLlGo4_SWn2fn80-9" target="FIYh9NLlGo4_SWn2fn80-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIYh9NLlGo4_SWn2fn80-9" value="sonuç" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="620" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TJMWT3t38AYOM3LRNC8X" name="Sayfa -9">
+    <mxGraphModel dx="1434" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AyULSJpS2vWxqgvveONS-1" value="kullanıcıdan aınan vize ve final notlarına göre bu kullanıcının dönem ortalamasını hesaplayan algoritmayı ve akış diyagramını oluşturunuz. (dönem ortalamsı vizenin yüzde 40 finalin yü&amp;lt;de 60 olr hesaplanır)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="51" width="470" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="AyULSJpS2vWxqgvveONS-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyULSJpS2vWxqgvveONS-2" target="AyULSJpS2vWxqgvveONS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyULSJpS2vWxqgvveONS-2" value="başla" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AyULSJpS2vWxqgvveONS-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyULSJpS2vWxqgvveONS-3" target="AyULSJpS2vWxqgvveONS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyULSJpS2vWxqgvveONS-3" value="vize=x&lt;div&gt;final=y&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AyULSJpS2vWxqgvveONS-5" value="1-başla&lt;div&gt;2-kullanıcıdan vide ve final notu al&lt;/div&gt;&lt;div&gt;3-x*40/100 + y*60/100 = z&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4-bitir&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="AyULSJpS2vWxqgvveONS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AyULSJpS2vWxqgvveONS-6" target="AyULSJpS2vWxqgvveONS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyULSJpS2vWxqgvveONS-6" value="z" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="460" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AyULSJpS2vWxqgvveONS-7" value="bitir" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="635" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="APdYNAhn-JbkhEbF1noe" name="Sayfa -12">
+    <mxGraphModel dx="1434" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-1" value="1 den 10 a kadar olan sayıları toplayan ve bu toplamı ekrana yazdıran algoritmayı ve akış diyagramı oluşturunuz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="350" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-2" value="1-başla&lt;div&gt;2- i=,toplam + i&lt;/div&gt;&lt;div&gt;3- toplam = toplam + i, i++&lt;/div&gt;&lt;div&gt;4- Eğer i &amp;lt;=10 ise 3.adıma eri dön değilse toplamı ekrana yazdır&lt;/div&gt;&lt;div&gt;5-bitir&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="350" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qBbp3n2EFjZmNLL31-Sx-3" target="qBbp3n2EFjZmNLL31-Sx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-3" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qBbp3n2EFjZmNLL31-Sx-4" target="qBbp3n2EFjZmNLL31-Sx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-4" value="i=1, toplam=0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="330" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qBbp3n2EFjZmNLL31-Sx-5" target="qBbp3n2EFjZmNLL31-Sx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQB4bDL30Y9zvibi1eX_-1" value="evet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="qBbp3n2EFjZmNLL31-Sx-11">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-5" value="toplam = toplam + i" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="535" y="460" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qBbp3n2EFjZmNLL31-Sx-6" target="qBbp3n2EFjZmNLL31-Sx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQB4bDL30Y9zvibi1eX_-2" value="hayır" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="qBbp3n2EFjZmNLL31-Sx-12">
+          <mxGeometry x="-0.0667" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-6" value="i &amp;lt;= 10" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="585" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qBbp3n2EFjZmNLL31-Sx-7" target="qBbp3n2EFjZmNLL31-Sx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-7" value="toplam" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qBbp3n2EFjZmNLL31-Sx-8" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gXqE_dGy1iFPco7Vtdx6" name="Sayfa -13">
+    <mxGraphModel dx="1434" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-57qkguYGvFMyntD5iRy-1" value="kullanıcıdan alınan 4 adet notun ortalamasını hesaplayıp bu ortalama 50 den küçükse sınıfta kaldınız, 50-64 arasında ise sınıfı geçtiniz fkat belge alamadınız, 65-84 arasında ise sınıfı geçtiniz ve teşekkür belgesi aldınız 85 ve üstü ise tebrikler sınıfı başarı ile geçtiniz ve takdir belgesi almaya hak kazandınız yazılarını ekrana yazdıran algoritmayı ve akış diyagramını oluşturunuz ." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-1" value="1- başla&amp;nbsp;&lt;div&gt;2- kulanıcıdan 4 adet sayı al&lt;/div&gt;&lt;div&gt;3- bu 4 sayının ortalamasını hesapla ve ort. değişkenine ata&lt;/div&gt;&lt;div&gt;4- ort &amp;lt; 50 ise sınıfta kaldınız yazdır değilse adım 5 e geç&lt;/div&gt;&lt;div&gt;5- ortaama &amp;gt;=50 &amp;amp;&amp;amp; ort&amp;lt;=64 ise sınıfı geçtiniz belge alamadınız değilse adım 6 ya geç&lt;/div&gt;&lt;div&gt;6-ort&amp;gt;=65 &amp;amp;&amp;amp; ort &amp;lt;=84 ise geçtiniz ve teşekkür belgesi aldınız değilse adım 7 ye geç&lt;/div&gt;&lt;div&gt;7-ekrana tebrikler sınıfı geçtiniz ve takdir belgesi aldınız&lt;/div&gt;&lt;div&gt;8-bitir&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="380" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-2" target="WSxzl9Ih2212048UTuh0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-2" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="580" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-3" target="WSxzl9Ih2212048UTuh0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-3" target="WSxzl9Ih2212048UTuh0-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1082" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-23" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="WSxzl9Ih2212048UTuh0-22">
+          <mxGeometry x="0.9853" y="3" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-3" value="kullanıcıdan 4 adet sayıl al ve hesapla değişkene ata" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="545" y="300" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-6" target="WSxzl9Ih2212048UTuh0-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="560" />
+              <mxPoint x="580" y="560" />
+              <mxPoint x="580" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-6" target="WSxzl9Ih2212048UTuh0-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-6" value="ort = (s1+s2+s3+s4)/4" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="550" y="430" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-7" value="ort &amp;lt;50" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="530" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-8" value="sınıfta kaldınız" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-9" value="ort &amp;gt;=50 &amp;amp;&amp;amp; ort&amp;lt;=64" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="710" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-10" value="sınıfı geçtiniz ama belge alamadınız" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-11" target="WSxzl9Ih2212048UTuh0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-11" value="ort&amp;gt;=65 &amp;amp;&amp;amp; ort &amp;lt; =84" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="870" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-12" value="sınıfı geçtiniz ve teşekkür belgesi aldınız" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="680" y="890" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-13" target="WSxzl9Ih2212048UTuh0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-13" value="sınıfı geçtiniz ve takdir belgesi aldınız" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-14" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="110" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.463;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-6" target="WSxzl9Ih2212048UTuh0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-9" target="WSxzl9Ih2212048UTuh0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.925;entryY=0.788;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-12" target="WSxzl9Ih2212048UTuh0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.425;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-10" target="WSxzl9Ih2212048UTuh0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSxzl9Ih2212048UTuh0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.258;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WSxzl9Ih2212048UTuh0-8" target="WSxzl9Ih2212048UTuh0-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nSutNh23lsM87N_NLH_p" name="Sayfa -14">
+    <mxGraphModel dx="1434" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-1" value="kullanıcıdan alınan sayının faktöriyelini hesaplayan algoritamyı ve akış diyagraını luşturunuz [faktörüiyel belirli bir sayıdan birer birer azaltılarak bu sayının 1 e kadar azaltılıp bu aradaki her sayının çarpılmasıdır]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="10" width="450" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-2" value="1- başla&amp;nbsp;&lt;div&gt;2- faktöriyeli hesaplanacak sayıyı al&amp;nbsp;&lt;/div&gt;&lt;div&gt;3- bu sayının faktöriyelini hesapla&lt;/div&gt;&lt;div&gt;4- bitir&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="370" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-3" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Bbn1lMgxXudLPj13Ezw-4" target="7Bbn1lMgxXudLPj13Ezw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-4" value="sayı al , i=1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="570" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Bbn1lMgxXudLPj13Ezw-5" target="7Bbn1lMgxXudLPj13Ezw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-5" value="alınan sayıyı n değişkenine ata" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="470" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-6" value="&lt;span style=&quot;background-color: initial;&quot;&gt;i, i&amp;lt;=n, i++&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;faktöriyel=faktöriyel*i&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="550" y="590" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Bbn1lMgxXudLPj13Ezw-7" target="7Bbn1lMgxXudLPj13Ezw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-7" value="i==n" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="570" y="740" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Bbn1lMgxXudLPj13Ezw-8" target="7Bbn1lMgxXudLPj13Ezw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-8" value="faktöriyeli" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="580" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-10" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="890" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.423;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Bbn1lMgxXudLPj13Ezw-6" target="7Bbn1lMgxXudLPj13Ezw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bbn1lMgxXudLPj13Ezw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Bbn1lMgxXudLPj13Ezw-3" target="7Bbn1lMgxXudLPj13Ezw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H3vQnERQ_JD2h9ZgOrit" name="Sayfa -15">
+    <mxGraphModel dx="1434" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PM0YdejzTUdKMblPaTpw-1" value="kullanıcıdan alınan sayının polindrom sayı olup olmadığının kontrolünü yapan ve eğer bu sayı polindrom bir sayıysa bu sayı polindrom bir sayıdır, değilse bu sayı polindrom bir sayı değildir yazdıran algoritmayı ve akış diyagramını oluşturunuz. [polindrom sayı baştan ve sondan okunuşu aynı olan sayıdır ]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="20" width="500" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-2" value="1- başla&lt;div&gt;2- kullanıcıdan sayı al&amp;nbsp;&lt;/div&gt;&lt;div&gt;3-polindrom sayı olup olmadığını kontrol et&amp;nbsp;&lt;/div&gt;&lt;div&gt;4- evetse&amp;nbsp; bu sayı polinrom sayıdır&amp;nbsp;&lt;/div&gt;&lt;div&gt;5- hayırsa bu sayı polindrom sayı değildir yazdır&lt;/div&gt;&lt;div&gt;6-bitir&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PM0YdejzTUdKMblPaTpw-3" target="PM0YdejzTUdKMblPaTpw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-3" value="başla" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="570" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PM0YdejzTUdKMblPaTpw-4" target="PM0YdejzTUdKMblPaTpw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-4" value="kullanıcıdan sayı al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="555" y="380" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PM0YdejzTUdKMblPaTpw-5" target="PM0YdejzTUdKMblPaTpw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PM0YdejzTUdKMblPaTpw-5" target="PM0YdejzTUdKMblPaTpw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-5" value="kontrol et&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PM0YdejzTUdKMblPaTpw-6" target="PM0YdejzTUdKMblPaTpw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-6" value="evet" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="530" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PM0YdejzTUdKMblPaTpw-7" target="PM0YdejzTUdKMblPaTpw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-7" value="hayır" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PM0YdejzTUdKMblPaTpw-9" target="PM0YdejzTUdKMblPaTpw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-9" value="bu sayı polindrom sayıdır" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="480" y="730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-10" value="bu sayı polindrom sayı değildir" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="670" y="730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-11" value="bitir" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="580" y="850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PM0YdejzTUdKMblPaTpw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.925;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PM0YdejzTUdKMblPaTpw-10" target="PM0YdejzTUdKMblPaTpw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IxgHXuh5NAGZMC2LYr21" name="Sayfa -16">
+    <mxGraphModel dx="1434" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
